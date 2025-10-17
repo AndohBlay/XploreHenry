@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Import your destination images
 import parisImg from '../assets/paris.jpg';
 import tokyoImg from '../assets/tokyo.jpg';
 import newYorkImg from '../assets/newyork.jpg';

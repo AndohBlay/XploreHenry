@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Destinations from '../components/Destinations';
-
+import About  from './About';
 const HomePage = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -11,6 +11,7 @@ const HomePage = () => {
         <Hero />
         <Destinations />
       </main>
+        <About />
     </div>
   );
 };

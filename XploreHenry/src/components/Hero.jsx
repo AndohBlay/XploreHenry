@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
-// Import your hero images
 import heroImg1 from '../assets/hero-1.jpg';
 import heroImg2 from '../assets/hero-2.jpg';
 
@@ -25,7 +24,7 @@ const Hero = () => {
       
       {/* Bottom text and WhatsApp icon */}
       <div className="mt-8 flex justify-between items-center">
-        <p className="font-medium text-lg">Your Journey, Perfectly Planned</p>
+        <p className="font-medium text-lg left">Your Journey, Perfectly Planned</p>
         <div className="bg-green-500 rounded-full p-3 cursor-pointer hover:scale-110 transition-transform">
           <FaWhatsapp size={30} color="white" />
         </div>
